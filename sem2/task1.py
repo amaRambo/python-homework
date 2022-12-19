@@ -4,3 +4,9 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
+a = input('введите вещественное число: ')
+sum = 0
+for i in a:
+    if i.isdigit():
+        sum+=int(i)
+print(sum)
