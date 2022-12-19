@@ -4,9 +4,9 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-a = float(input('введите вещественное число: ')) 
+a = input('введите вещественное число: ')
 sum = 0
-for i in range(len(str(a))):
-    time = str(a[i])
-    sum = sum + int(time)
+for i in a:
+    if i.isdigit():
+        sum+=int(i)
 print(sum)
