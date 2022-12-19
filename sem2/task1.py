@@ -4,10 +4,3 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-a = float(input('введите вещественное число: ')) 
-print(a.pop(1))
-# sum = 0
-# for i in range(len(str(a))):
-#     time = str(a[i])
-#     sum = sum + int(time)
-# print(sum)
