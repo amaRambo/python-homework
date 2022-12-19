@@ -6,3 +6,7 @@ a = {}
 for i in range(2*n+1):
     a[i] = i - n
 print(a)
+f = open('4task.txt')
+p1 = int(f.readline())
+p2 = int(f.readline())
+print(a[p1]*a[p2])

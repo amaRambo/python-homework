@@ -4,9 +4,9 @@
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 n = int(input('ВВедите числа эн: '))
-a = [0]
+a = []
 time = 1
-for i in range(1,n):  
-    time = time * i
-    a[i] = time
+for i in range(n):  
+    time = time * (i+1)
+    a.append(int(time))
 print(a)
