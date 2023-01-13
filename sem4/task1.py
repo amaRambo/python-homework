@@ -10,3 +10,8 @@ while a%1 != 0:
     a = a * 10
 template = '{:.' + str(n) + 'f}'
 print(template.format(с))
+
+# import math
+# n = input()
+# length = len(n.split(".")[1])
+# print(round(math.pi,length))
