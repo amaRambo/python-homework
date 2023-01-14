@@ -8,9 +8,9 @@ def compression(fComp):
         if fcomp[i] == fcomp[i+1]:
             count = count + 1
         else:
-            z = z + fcomp[i] + str(count)
+            z = z + str(count) + fcomp[i] 
             count = 1
-    return z + fcomp[i] + str(count)
+    return z + str(count) + fcomp[i] 
 
 
 def recovery(fRec):
@@ -18,8 +18,8 @@ def recovery(fRec):
     z = ""
     for i in range(0, len(f)-1, 2):
         j = 0
-        while j < int(f[i+1]):
-            z = z + f[i]
+        while j < int(f[i]):
+            z = z + f[i + 1]
             j += 1
     return z
 

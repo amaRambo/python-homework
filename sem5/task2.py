@@ -6,8 +6,6 @@
 # Сколько конфет нужно взять первому игроку, чтобы забрать все конфеты у своего конкурента?
 
 import random
-n = 2021
-limit = 28
 
 lottery = random.randint(1,2)
 if lottery == 1:
@@ -15,12 +13,15 @@ if lottery == 1:
 else:
     p = "player2"
 
+n = 2021
+limit = 28
 i = 0
+
 while i <= n:
     print("Ход", p)
     step = int(input())
     if step <= 0 or step > 28 or step > n - i:
-        print("Ваш ход не неверный")
+        print("Ваш ход неверный")
         print("Ход", p)
         step = int(input())
     i = i + step
@@ -32,6 +33,7 @@ while i <= n:
         p = "player2"
     else:
         p = "player1"
+        
 
 
 
