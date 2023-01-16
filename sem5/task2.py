@@ -20,7 +20,7 @@ i = 0
 while i <= n:
     print("Ход", p)
     step = int(input())
-    if step <= 0 or step > 28 or step > n - i:
+    while 0 <= step > 28 :
         print("Ваш ход неверный")
         print("Ход", p)
         step = int(input())
