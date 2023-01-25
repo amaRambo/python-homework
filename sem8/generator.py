@@ -2,7 +2,7 @@
 
 
 names = ['Kevin', 'Piter', 'Bob', 'Evgen', 'Doom', 'Aristotel', 'Mark','Jon', 'Conor', 'Anderson']
-lastnames = ['Silva', 'Smith', 'Uragun', 'Poker', 'Hooker', 'Zoomer', 'Alhogol','Smile', 'Niner', 'Ten-ten']
+lastnames = ['Silva', 'Smith', 'Uragun', 'Poker', 'Hooker', 'Zoomer', 'Alhogol','Smile', 'Niner', 'Ten']
 
 def students_generate():
     file = open('sem8/students.txt', 'w')

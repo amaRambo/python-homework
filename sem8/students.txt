@@ -7,7 +7,7 @@ Kevin Zoomer
 Kevin Alhogol
 Kevin Smile
 Kevin Niner
-Kevin Ten-ten
+Kevin Ten
 Piter Silva
 Piter Smith
 Piter Uragun
@@ -17,7 +17,7 @@ Piter Zoomer
 Piter Alhogol
 Piter Smile
 Piter Niner
-Piter Ten-ten
+Piter Ten
 Bob Silva
 Bob Smith
 Bob Uragun
@@ -27,7 +27,7 @@ Bob Zoomer
 Bob Alhogol
 Bob Smile
 Bob Niner
-Bob Ten-ten
+Bob Ten
 Evgen Silva
 Evgen Smith
 Evgen Uragun
@@ -37,7 +37,7 @@ Evgen Zoomer
 Evgen Alhogol
 Evgen Smile
 Evgen Niner
-Evgen Ten-ten
+Evgen Ten
 Doom Silva
 Doom Smith
 Doom Uragun
@@ -47,7 +47,7 @@ Doom Zoomer
 Doom Alhogol
 Doom Smile
 Doom Niner
-Doom Ten-ten
+Doom Ten
 Aristotel Silva
 Aristotel Smith
 Aristotel Uragun
@@ -57,7 +57,7 @@ Aristotel Zoomer
 Aristotel Alhogol
 Aristotel Smile
 Aristotel Niner
-Aristotel Ten-ten
+Aristotel Ten
 Mark Silva
 Mark Smith
 Mark Uragun
@@ -67,7 +67,7 @@ Mark Zoomer
 Mark Alhogol
 Mark Smile
 Mark Niner
-Mark Ten-ten
+Mark Ten
 Jon Silva
 Jon Smith
 Jon Uragun
@@ -77,7 +77,7 @@ Jon Zoomer
 Jon Alhogol
 Jon Smile
 Jon Niner
-Jon Ten-ten
+Jon Ten
 Conor Silva
 Conor Smith
 Conor Uragun
@@ -87,7 +87,7 @@ Conor Zoomer
 Conor Alhogol
 Conor Smile
 Conor Niner
-Conor Ten-ten
+Conor Ten
 Anderson Silva
 Anderson Smith
 Anderson Uragun
@@ -97,4 +97,4 @@ Anderson Zoomer
 Anderson Alhogol
 Anderson Smile
 Anderson Niner
-Anderson Ten-ten
+Anderson Ten
