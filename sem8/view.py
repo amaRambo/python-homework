@@ -12,8 +12,10 @@ def for_add_sub():
     a = input('Название предмета: ')
     return a
 
-
-
-def output():
-    a = int(input('Введите id ученика: '))
+def choice_std():
+    a = input('Введите имя ученика: ')
     return a
+
+def choice_sub():
+    a = input('Введите предмет: ')
+    return a    

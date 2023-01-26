@@ -3,11 +3,12 @@
 
 def add_sub(a):
     f1 = open('sem8/subjects.txt', 'a')
-    f2 = open('sem8/magazine.txt', 'a+')
-    for f2.read in f2:
-        f2.writelines(str(a))
-    # f1.writelines(a + '\n')
-    # f1.close()
+    with open("sem8/magazine.txt", 'r+') as f2:
+        lines = list(map(lambda x: f"{{}}['{a}']\n".format(x.strip()), f2.readlines()))
+        f2.seek(0)
+        [f2.write(l) for l in lines]
+    f1.writelines(a + '\n')
+    f1.close()
     f2.close()
 
 add_sub(input(' sada s : '))
