@@ -6,7 +6,7 @@ def add_std(a):
     f1 = open('sem8/magazine.txt', 'a')
     f2 = open('sem8/subjects.txt', 'r')
     f3 = open('sem8/students.txt', 'a')
-    f3.writelines(str(a))
+    f3.write(f'\n{str(a)}')
     b = ''
     for f2.read in f2:
         c = f2.read.splitlines()
@@ -17,4 +17,4 @@ def add_std(a):
     f3.close()
 
 
-# add_std('Ivan Petov')
+add_std('Ivan Petov')
