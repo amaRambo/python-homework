@@ -2,6 +2,7 @@ import telebot
 from telebot import types
 import random
 from random import randint
+import spy 
 bot = telebot.TeleBot("5804587400:AAELkmE4RmkQKUl6745HozMTO-DfSZfH0d4")
 
 
@@ -14,7 +15,9 @@ flag = ""
 
 @bot.message_handler(commands=["start"])
 def start(message):
+    spy.log(message)
     global flag
+    sweets = 80
     bot.send_message(message.chat.id,f"Приветствую вас в игре!")
     bot.send_message(message.chat.id, f"Всего в игре {sweets} конфет")
     flag = random.choice(["user", "bot"])
@@ -26,6 +29,7 @@ def start(message):
         controller(message)
         
 def controller(message):
+    # spy.log(message)
     global flag
     if sweets>0:
         if flag == "user":
@@ -59,6 +63,7 @@ def bot_input(message):
     controller(message)
 
 def user_input(message):
+    spy.log(message)
     global flag,user_turn,sweets
     user_turn = int(message.text)
     sweets -= user_turn

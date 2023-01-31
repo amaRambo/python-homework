@@ -1,14 +1,20 @@
 import telebot
 from telebot import types
+import spy
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, CallbackContext
+import datetime
 
 bot = telebot.TeleBot("5804587400:AAELkmE4RmkQKUl6745HozMTO-DfSZfH0d4")
 
 @bot.message_handler(commands = ["start"])
 def start(message):
+    spy.log(message)
     bot.send_message(message.chat.id,"/button")
     
 @bot.message_handler(commands = ["button"])
 def button(message):
+    spy.log(message)
     markup = types.ReplyKeyboardMarkup(resize_keyboard=None)
     but1 = types.KeyboardButton("рациональные")
     but2 = types.KeyboardButton("комплексные")
@@ -20,6 +26,7 @@ def button(message):
 
 @bot.message_handler(content_types = "text")
 def controller(message):
+    spy.log(message)
     print(message.text)
     if message.text == "рациональные":
         bot.send_message(message.chat.id,"введи пример через пробелы (например 2 + 3)")
@@ -29,6 +36,7 @@ def controller(message):
         bot.register_next_step_handler(message,compl)
 
 def rats(message):
+    # spy.log(message)
     a = message.text.split()
     if a[1] == '+':
         result = int(a[0]) + int(a[2])
@@ -46,6 +54,7 @@ def rats(message):
     button(message)
 
 def compl(message):
+    # spy.log(message)
     a = message.text.split()
     if a[1] == '+':
         result = complex(a[0]) + complex(a[2])
